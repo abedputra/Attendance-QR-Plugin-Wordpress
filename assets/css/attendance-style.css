@@ -1,0 +1,292 @@
+.col-50 {
+    width: 50%;
+    padding: 10px;
+}
+
+.col-30 {
+    width: 30%;
+    padding: 10px;
+}
+
+.col-40 {
+    width: 40%;
+    padding: 10px;
+}
+
+.col-60 {
+    width: 60%;
+    padding: 10px;
+}
+
+.col-70 {
+    width: 70%;
+    padding: 10px;
+}
+
+.row-col {
+    display: inline-flex;
+    width: 100%;
+}
+
+.img-center {
+    margin: 0 auto;
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.margin-generate {
+    margin-left: 20px !important;
+}
+
+.button-center {
+    margin: 0 auto !important;
+    display: block !important;
+    margin-top: 20px !important;
+}
+
+.red-text {
+    color: red;
+}
+
+/*
+ * HTML5 Date Input Style
+ */
+
+div.custom-error {
+    border-left-color: #d63638 !important;
+}
+
+div.custom-updated {
+    border-left-color: #00a32a !important;
+}
+
+div.custom-error,
+div.custom-updated {
+    background: #fff !important;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px !important;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%) !important;
+    padding: 1px 12px !important;
+}
+
+/* Attendance QR Code Admin Styles - Inspired by QTest */
+
+/* Page heading styles */
+.wp-heading-inline {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.page-title-action {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Form styling improvements */
+.awqc-form-item {
+    background-color: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.awqc-form-item .form-table th {
+    width: 180px;
+    font-weight: 600;
+    padding: 10px 10px 10px 0;
+}
+
+.awqc-form-item .form-table td {
+    padding: 10px;
+}
+
+.awqc-form-item input[type="text"],
+.awqc-form-item textarea,
+.awqc-form-item select {
+    width: 100%;
+    max-width: 100%;
+}
+
+.awqc-form-item textarea {
+    min-height: 80px;
+}
+
+/* Action buttons with icons */
+.wp-list-table .button.button-small {
+    padding: 6px 8px;
+    height: 28px;
+    min-height: 28px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.wp-list-table .button.button-small .dashicons {
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 0;
+}
+
+.wp-list-table .button.button-small:hover {
+    opacity: 0.8;
+}
+
+.wp-list-table .button.button-small:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.wp-list-table .button.button-small[style*="color: #a00"]:hover {
+    background-color: #dc3232;
+    color: #fff !important;
+    border-color: #dc3232;
+}
+
+/* Search form styling */
+.awqc-search-form {
+    margin: 20px 0;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+}
+
+.awqc-search-form .search-box {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.awqc-search-form .search-box input[type="text"],
+.awqc-search-form .search-box input[type="date"] {
+    flex: 1;
+    min-width: 150px;
+    height: 32px;
+    padding: 6px 8px;
+    font-size: 14px;
+    line-height: 1.5;
+    border: 1px solid #8c8f94;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.awqc-search-form .search-box input[type="text"]:focus,
+.awqc-search-form .search-box input[type="date"]:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: 2px solid transparent;
+}
+
+.awqc-search-form .search-box input[type="text"]:hover,
+.awqc-search-form .search-box input[type="date"]:hover {
+    border-color: #50575e;
+}
+
+.awqc-search-form .search-box .button {
+    height: 32px;
+    line-height: 1.5;
+    padding: 6px 12px;
+    box-sizing: border-box;
+}
+
+/* Two column layout */
+.row-col {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    max-width: 1200px;
+}
+
+.col-60 {
+    flex: 0 0 55%;
+    max-width: 55%;
+}
+
+.col-40 {
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+
+@media (max-width: 1200px) {
+    .row-col {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 782px) {
+    .row-col {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .col-60,
+    .col-40 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* QR Code preview box */
+.awqc-qr-preview {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.awqc-qr-preview h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.awqc-qr-preview img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Button improvements */
+.button.button-center {
+    display: block;
+    margin: 10px auto 0;
+}
+
+/* Wrap container max width */
+.wrap {
+    max-width: 1400px;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.margin-generate {
+    margin-left: 10px;
+}
